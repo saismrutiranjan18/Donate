@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WaterAid — Clean Water Changes Everything</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Skip link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="24"/></svg>
+        <span class="brand-text">WaterAid</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <div class="bar"></div><div class="bar"></div><div class="bar"></div>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#impact">Impact</a></li>
+          <li><a href="#stories">Stories</a></li>
+          <li><a class="btn btn--primary" href="#donate">Donate</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Clean water. Healthy lives. Brighter futures.</h1>
+          <p>We work so every person can access clean water, decent toilets, and good hygiene—today and for generations.</p>
+          <div class="cta-row">
+            <a class="btn btn--primary" href="#donate">Donate now</a>
+            <a class="btn btn--ghost" href="#mission">Learn more</a>
+          </div>
+        </div>
+        <div class="hero-card" role="img" aria-label="Illustration of water access">
+          <div class="hero-badge">100% Impact</div>
+          <p class="hero-card-title">Your support funds sustainable water solutions in communities that need them most.</p>
+          <ul class="hero-points">
+            <li>Community-led systems</li>
+            <li>Local maintenance training</li>
+            <li>Hygiene education</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission -->
+    <section id="mission" class="section">
+      <div class="container two-col">
+        <div>
+          <h2>Our mission</h2>
+          <p>We partner with communities, governments, and local organizations to design water systems that last.</p>
+          <ul class="checklist">
+            <li>Locally owned and maintained</li>
+            <li>Climate-resilient designs</li>
+            <li>Women and youth leadership</li>
+          </ul>
+        </div>
+        <div class="media-card">
+          <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=1600&auto=format&fit=crop" alt="Community collecting clean water in rural area">
+        </div>
+      </div>
+    </section>
+
+    <!-- Programs -->
+    <section id="programs" class="section section--muted">
+      <div class="container">
+        <h2 class="section-title">What we do</h2>
+        <div class="grid-3">
+          <article class="card">
+            <h3>Water access</h3>
+            <p>Safe water points, reliable pumps, and piped systems designed with the community.</p>
+            <a class="link" href="#">Explore projects →</a>
+          </article>
+          <article class="card">
+            <h3>Sanitation</h3>
+            <p>Toilets that are affordable, accessible, and dignified for households and schools.</p>
+            <a class="link" href="#">See our approach →</a>
+          </article>
+          <article class="card">
+            <h3>Hygiene</h3>
+            <p>Behavior change programs that improve handwashing and menstrual hygiene practices.</p>
+            <a class="link" href="#">Read more →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Impact -->
+    <section id="impact" class="section">
+      <div class="container">
+        <h2 class="section-title">Your impact</h2>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-number" data-count-to="1200">0</div>
+            <div class="stat-label">communities reached</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number" data-count-to="5">0</div>
+            <div class="stat-label">countries of focus</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number" data-count-to="98">0</div>
+            <div class="stat-label">% projects still running after 5 years</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stories -->
+    <section id="stories" class="section section--muted">
+      <div class="container">
+        <h2 class="section-title">Stories from the field</h2>
+        <div class="grid-3">
+          <article class="story">
+            <img src="https://images.unsplash.com/photo-1563986768494-4dee2763ff3f?q=80&w=1600&auto=format&fit=crop" alt="Village water point">
+            <div class="story-body">
+              <h3>“Now our children are healthy.”</h3>
+              <p>A new gravity-fed system brings water to homes in a hillside village for the first time.</p>
+              <a class="link" href="#">Read the story →</a>
+            </div>
+          </article>
+          <article class="story">
+            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1600&auto=format&fit=crop" alt="Handwashing station at school">
+            <div class="story-body">
+              <h3>Hygiene at school</h3>
+              <p>Simple handwashing stations keep classrooms open and students learning.</p>
+              <a class="link" href="#">See how →</a>
+            </div>
+          </article>
+          <article class="story">
+            <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=1600&auto=format&fit=crop" alt="Community meeting">
+            <div class="story-body">
+              <h3>Women leading change</h3>
+              <p>Maintenance committees led by women boost reliability and safety.</p>
+              <a class="link" href="#">Meet the leaders →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Donate Section -->
+    <section id="donate" class="section donate">
+      <div class="container donate-inner">
+        <h2 class="section-title">Donate to Jagannath Donation</h2>
+        <p class="donate-text">Scan the QR code below to donate directly and support clean water projects.</p>
+        <div class="qr-box">
+          <img src="qr.jpg" alt="QR Code for donation" class="qr-image">
+        </div>
+        <p class="donate-note">You can also contact us for alternative payment methods.</p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta">
+      <div class="container cta-inner">
+        <h2>Be the reason a village turns on a tap.</h2>
+        <a class="btn btn--primary btn--lg" href="#donate">Donate Now</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>About</h4>
+        <ul>
+          <li><a href="#mission">Our mission</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#impact">Impact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get involved</h4>
+        <ul>
+          <li><a href="#donate">Donate</a></li>
+          <li><a href="#">Fundraise</a></li>
+          <li><a href="#">Partner with us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@example.org">hello@example.org</a></li>
+          <li><a href="tel:+911234567890">+91 12345 67890</a></li>
+          <li><a href="#">Follow on social</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> WaterAid </p>
+    </div>
+  </footer>
+</body>
+</html>
